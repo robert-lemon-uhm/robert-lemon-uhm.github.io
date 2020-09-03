@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/LogoJava.png
-title: Micromouse
+title: 2048
 permalink: projects/micromouse
 date: 2015-07-01
 labels:
