@@ -2,14 +2,13 @@
 layout: project
 type: project
 image: images/LogoJava.png
-title: 2048
+title: "2048"
 permalink: projects/2048
 date: 2019-12-06
 labels:
   - Java
   - Eclipse
 summary: I coded the game 2048 in Java for my final project in ICS 111.
----
 ---
 
 <img class="ui medium right floated rounded image" src="/images/2048UI.png">
@@ -19,25 +18,25 @@ This project was meant to demonstrate a fundamental understanding of the basics 
 This is the piece of code that checks if the player lost:
 ```
 boolean lost = true;
-		
+
 for(int i = 0; i < 4; i++)
 	for(int j = 0; j < 4; j++) {
-				
+
 	  // check if the player can move up
 		if(i != 0)
 			if(Tiles[i][j].getScore() == Tiles[i-1][j].getScore())
 				lost = false;
-				
+
 		// check if the player can move down
 		if(i != 3)
 			if(Tiles[i][j].getScore() == Tiles[i+1][j].getScore())
 				lost = false;
-				
+
 		// check if the player can move left
 		if(j != 0)
 			if(Tiles[i][j].getScore() == Tiles[i][j-1].getScore())
 				lost = false;
-				
+
 		// check if the player can move right
 		if(j != 3)
 			if(Tiles[i][j].getScore() == Tiles[i][j+1].getScore())
