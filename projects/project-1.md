@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/Logo2048.png
 title: Micromouse
 permalink: projects/2048
 date: 2019-12-06
