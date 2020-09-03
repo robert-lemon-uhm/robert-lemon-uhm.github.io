@@ -4,12 +4,11 @@ type: project
 image: images/LogoJava.png
 title: 2048
 permalink: projects/2048
-date: 2015-07-01
+date: 2019-12-06
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+  - Eclipse
+summary: I coded the game 2048 in Java for my final project in ICS 111.
 ---
 
 <img class="ui medium right floated rounded image" src="/images/micromouse-robot.png">
