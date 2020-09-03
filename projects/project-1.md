@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/test
+image: images/LogoJava.png
+title: 2048
+permalink: projects/2048
 date: 2015-07-01
 labels:
   - Robotics
@@ -17,30 +17,29 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
 This project was meant to demonstrate a fundamental understanding of the basics of Java.  Images were created for the introduction screen, as well as the winning and losing screen.  The game itself was created using a 2D array that stored tiles, a class that was created for this project.  Each tile had an associated coordinate, value, and color, and the user input was used to move the tiles.  This basic functionality incorporated continuous while-loops to gather user input, maintenance and storage of objects within a matrix, and organization of graphics drawn on the screen.  Collision needed to be detected, and the combination of tiles needed to occur in a certain order, as corresponding to the original game.  In order to win the game, a tile of 2048 must be produced, so this was checked when each tile updated.  In order to lose, there can be no more valid moves left.  To achieve this, the entire matrix had to be iterated over whenever the board was full, checking if there were valid moves left.  As the only programmer for this project, I had to figure out how to implement all of the methods.
 This is the piece of code that checks if the player lost:
 ```
-		boolean lost = true;
-		
-		for(int i = 0; i < 4; i++)
-			for(int j = 0; j < 4; j++) {
+boolean lost = true;
+
+for(int i = 0; i < 4; i++)
+  for(int j = 0; j < 4; j++) {
 				
-				// check if the player can move up
-				if(i != 0)
-					if(Tiles[i][j].getScore() == Tiles[i-1][j].getScore())
-						lost = false;
+    // check if the player can move up
+    if(i != 0)
+      if(Tiles[i][j].getScore() == Tiles[i-1][j].getScore())
+        lost = false;
 				
-				// check if the player can move down
-				if(i != 3)
-					if(Tiles[i][j].getScore() == Tiles[i+1][j].getScore())
-						lost = false;
+    // check if the player can move down
+    if(i != 3)
+      if(Tiles[i][j].getScore() == Tiles[i+1][j].getScore())
+	lost = false;
 				
-				// check if the player can move left
-				if(j != 0)
-					if(Tiles[i][j].getScore() == Tiles[i][j-1].getScore())
-						lost = false;
+    // check if the player can move left
+    if(j != 0)
+	if(Tiles[i][j].getScore() == Tiles[i][j-1].getScore())
+	  lost = false;
 				
-				// check if the player can move right
-				if(j != 3)
-					if(Tiles[i][j].getScore() == Tiles[i][j+1].getScore())
-						lost = false;
-	
-			}
+    // check if the player can move right
+    if(j != 3)
+	if(Tiles[i][j].getScore() == Tiles[i][j+1].getScore())
+	  lost = false;	
+}
 ```
