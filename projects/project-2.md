@@ -14,10 +14,19 @@ summary: A robust record database that I coded in C for ICS 212.
 
 <img class="ui medium right floated rounded image" src="../images/Project1UI.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This project was meant to demonstrate a thorough understanding of C.  There was a heavy focus on pointers, as the database was stored in a self-implemented linked list.  The data was saved to a text file, and re-read into the program character by character.  This required specific character parsing, especially since the address input could span multiple lines.  Memory needed to be tracked and cleaned up after the program terminated, as well as organized in-terminal visuals.  There were allowed to be multiple accounts with the same account number, so this had to be taken into account when getting and setting account values.  Debugging features were also added, providing real-world experience for the software development process.  Since this was an independent project, a complete understanding of all topics was needed to successfully implement this project.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+This is the section of the code that reads in user-inputted multi-line addresses:
+```
+    while ( (ch = getchar()) != '!' && length < size - 1 )
+    {
+        address[length++] = ch;
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+        if ( ch == '\n' )
+        {
+            printf("         ");
+        }
+    }
+
+    address[length++] = '\0';
+```
