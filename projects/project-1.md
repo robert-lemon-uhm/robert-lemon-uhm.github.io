@@ -4,7 +4,7 @@ type: project
 image: images/micromouse.jpg
 title: Micromouse
 permalink: projects/micromouse
-date: 2015-07-01
+date: 2019-12-06
 labels:
   - Java
 summary: I coded the game 2048 in Java for my final project in ICS 111.
