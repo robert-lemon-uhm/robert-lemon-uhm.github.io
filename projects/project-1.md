@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/LogoJava.png
 title: 2048
-permalink: projects/micromouse
+permalink: projects/2048
 date: 2015-07-01
 labels:
   - Robotics
