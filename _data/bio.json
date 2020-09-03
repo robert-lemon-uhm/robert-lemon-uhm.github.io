@@ -1,57 +1,47 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Robert Lemon",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://robert-lemon-uhn.github.io/images/Square Pic.png",
+    "email": "rlemon@hawaii.edu",
+    "phone": "",
+    "website": "https://robert-lemon-uhm.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96734",
+      "city": "Kailua",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "robert-lemon-uhm",
+        "url": "http://github.com/robert-lemon-uhm"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "robertlemon",
+        "url": "www.linkedin.com/in/robertlemon"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Low-Level Development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "C",
       ]
     },
     {
-      "name": "data mining",
+      "name": "Machine Learning",
       "keywords": [
+         "Python"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Algorithms",
       "keywords": [
       ]
     }
@@ -65,19 +55,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Python"
       ]
     }
   ],
