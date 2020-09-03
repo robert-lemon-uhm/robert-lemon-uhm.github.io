@@ -6,10 +6,8 @@ title: Micromouse
 permalink: projects/micromouse
 date: 2015-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: This is not my project.
+  - Java
+summary: I coded the game 2048 in Java for my final project in ICS 111.
 ---
 
 <img class="ui medium right floated rounded image" src="/images/micromouse-robot.png">
