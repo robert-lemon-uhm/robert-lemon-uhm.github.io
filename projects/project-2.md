@@ -12,7 +12,7 @@ labels:
 summary: A robust record database that I coded in C for ICS 212.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/Project1UI">
+<img class="ui medium right floated rounded image" src="../images/Project1UI.png">
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
