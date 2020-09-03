@@ -1,32 +1,21 @@
 ---
 layout: project
 type: project
-image: images/LogoC.png
-title: C Record Database
-permalink: projects/DatabaseC
-# All dates must be YYYY-MM-DD format!
-date: 2020-03-13
+image: images/micromouse.jpg
+title: Micromouse
+permalink: projects/micromouse
+date: 2015-07-01
 labels:
-  - C
-  - VIM Editor
-summary: A robust record database that I coded in C for ICS 212.
+  - Robotics
+  - Arduino
+  - C++
+summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/Project1UI.png">
+<img class="ui medium right floated rounded image" src="/images/micromouse-robot.png">
 
-This project was meant to demonstrate a thorough understanding of C.  There was a heavy focus on pointers, as the database was stored in a self-implemented linked list.  The data was saved to a text file, and re-read into the program character by character.  This required specific character parsing, especially since the address input could span multiple lines.  Memory needed to be tracked and cleaned up after the program terminated, as well as organized in-terminal visuals.  There were allowed to be multiple accounts with the same account number, so this had to be taken into account when getting and setting account values.  Debugging features were also added, providing real-world experience for the software development process.  Since this was an independent project, a complete understanding of all topics was needed to successfully implement this project.
+Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 grid of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
 
-This is the section of the code that reads in user-inputted multi-line addresses:
-```
-    while ( (ch = getchar()) != '!' && length < size - 1 )
-    {
-        address[length++] = ch;
+For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-        if ( ch == '\n' )
-        {
-            printf("         ");
-        }
-    }
-
-    address[length++] = '\0';
-```
+You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
