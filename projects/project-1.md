@@ -4,7 +4,7 @@ type: project
 image: images/LogoJava.jpg
 title: 2048
 permalink: projects/micromouse
-date: 2015-07-01
+date: 2019-12-06
 labels:
   - Java
 summary: I coded 2048 in Java for a final project in ICS 111.
