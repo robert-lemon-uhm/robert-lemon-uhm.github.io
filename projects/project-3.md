@@ -1,33 +1,21 @@
 ---
 layout: project
 type: project
-image: images/LogoC++.png
-title: C++ Record Database
-permalink: projects/DatabaseC++
-# All dates must be YYYY-MM-DD format!
-date: 2020-05-01
+image: images/micromouse.jpg
+title: Micromouse
+permalink: projects/micromouse
+date: 2015-07-01
 labels:
+  - Robotics
+  - Arduino
   - C++
-  - VIM Editor
-summary:  A robust record database that I coded in C++ for ICS 212.
+summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/Project2UI.png">
+<img class="ui medium right floated rounded image" src="/images/micromouse-robot.png">
 
-This project is a redesign of the C Record Database project, but written in C.  A thorough understanding of how C++ operates in terms of function calls, parameters, memory allocation, and scope is required to implement this.  Operator functions were defined for object handling, as well as a function that recursively prints the database and a function that reverses the order of the list.  Objects were now used in the linked lists to represent the records.  Although the functionality of this project mirrors the C Record Database, its implementation requires a much greater understanding of memory allocation, pointers, and how parameters work. Again, this was an individual assignment so a complete understanding of this content was required to implement the project.
+Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 grid of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
 
-This code sample is used to clean up object memory after the program finishes running:
-```
- currentNode = this->start;
+For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-    while ( currentNode != NULL )
-    {
-        nextNode = (*currentNode).next;
-
-        delete currentNode;
-
-        currentNode = nextNode;
-    }
-
-    this->start = NULL;
-```
+You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
