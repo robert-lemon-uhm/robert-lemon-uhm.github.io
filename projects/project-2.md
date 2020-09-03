@@ -1,16 +1,15 @@
 ---
 layout: project
 type: project
-published: false
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
-date: 2015-07-01
+published: true
+image: images/LogoC.png
+title: DatabaseC
+permalink: projects/DatabaseC
+date: 2020-03-13
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - C
+  - VIM Editor
+summary: A robust record database that I coded in C for ICS 212.
 ---
 
 <img class="ui medium right floated rounded image" src="/images/micromouse-robot.png">
