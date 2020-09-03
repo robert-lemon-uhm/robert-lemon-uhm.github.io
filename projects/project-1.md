@@ -1,20 +1,46 @@
 ---
 layout: project
 type: project
-image: images/LogoJava.png
-title: 2048
-permalink: projects/2048
-date: 2019-12-06
+image: images/micromouse.jpg
+title: Micromouse
+permalink: projects/micromouse
+date: 2015-07-01
 labels:
-  - Java
-summary: I coded the game 2048 in Java for my final project in ICS 111.
+  - Robotics
+  - Arduino
+  - C++
+summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
 
+<img class="ui medium right floated rounded image" src="/images/2048UI.png">
 
-<img class="ui medium right floated rounded image" src="/images/micromouse-robot.png">
-
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 grid of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
-
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+This project was meant to demonstrate a fundamental understanding of the basics of Java.  Images were created for the introduction screen, as well as the winning and losing screen.  The game itself was created using a 2D array that stored tiles, a class that was created for this project.  Each tile had an associated coordinate, value, and color, and the user input was used to move the tiles.  This basic functionality incorporated continuous while-loops to gather user input, maintenance and storage of objects within a matrix, and organization of graphics drawn on the screen.  Collision needed to be detected, and the combination of tiles needed to occur in a certain order, as corresponding to the original game.  In order to win the game, a tile of 2048 must be produced, so this was checked when each tile updated.  In order to lose, there can be no more valid moves left.  To achieve this, the entire matrix had to be iterated over whenever the board was full, checking if there were valid moves left.  As the only programmer for this project, I had to figure out how to implement all of the methods.
+This is the piece of code that checks if the player lost:
+```
+		boolean lost = true;
+		
+		for(int i = 0; i < 4; i++)
+			for(int j = 0; j < 4; j++) {
+				
+				// check if the player can move up
+				if(i != 0)
+					if(Tiles[i][j].getScore() == Tiles[i-1][j].getScore())
+						lost = false;
+				
+				// check if the player can move down
+				if(i != 3)
+					if(Tiles[i][j].getScore() == Tiles[i+1][j].getScore())
+						lost = false;
+				
+				// check if the player can move left
+				if(j != 0)
+					if(Tiles[i][j].getScore() == Tiles[i][j-1].getScore())
+						lost = false;
+				
+				// check if the player can move right
+				if(j != 3)
+					if(Tiles[i][j].getScore() == Tiles[i][j+1].getScore())
+						lost = false;
+	
+			}
+```
