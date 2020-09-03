@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/LogoJava.png
 title: 2048
-permalink: projects/2048
+permalink: projects/Micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-06
 labels:
