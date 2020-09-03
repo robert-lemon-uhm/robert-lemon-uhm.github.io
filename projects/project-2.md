@@ -1,20 +1,18 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/LogoC.png
+title: C Record Database
+permalink: projects/DatabaseC
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-03-13
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - C
+  - VIM Editor
+summary: A robust record database that I coded in C for ICS 212.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/Project1UI">
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
