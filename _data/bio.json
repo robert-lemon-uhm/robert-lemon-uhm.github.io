@@ -93,6 +93,16 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "Association for Computing Machinery (ACM) Programming and Algorithms (PANDA) Club",
+      "website": "https://acmanoa.github.io/panda/",
+      "position": "Member",
+      "startDate": "2020-01-16",
+      "endDate": "Present",
+      "summary": "A club focused on solving and optimizing programming algorithms",
+      "highlights": [
+      ]
+    }
   ],
   "awards": [
     {
