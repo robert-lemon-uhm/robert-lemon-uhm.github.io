@@ -31,17 +31,17 @@
     {
       "name": "Low-Level Development",
       "keywords": [
-        "C",
+        "",
       ]
     },
     {
       "name": "Machine Learning",
       "keywords": [
-         "Python"
+         ""
       ]
     },
     {
-      "name": "Algorithms",
+      "name": "Algorithm Optimization",
       "keywords": [
       ]
     }
