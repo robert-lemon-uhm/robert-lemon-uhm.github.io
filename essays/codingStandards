@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: codingStandards
+title: Holding Your Code to a Higher Standard
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-24
 labels:
@@ -9,4 +9,8 @@ labels:
   - IDEs
 ---
 
-## Title
+## Life Before Coding Standards
+My first full year of programming was completely void of coding standards.  And it was obvious.  The first semester I started to properly code was when I was still in the College of Engineering.  Their Programming for Engineers class provided me with an amazing foundation going into the ICS department, as the basics of programming were taught from a low-level perspective (using C).  My first ICS-related coding class solidified this experience, but still did not introduce proper coding standards.  The result from that year was an unorganized collage of code.  While it functioned as intended, it was often illegible.  My coding style was often not consistent within a single file, let alone consistent throughout multiple different assignments.  Rereading some of my first programs was a nightmare.
+## Seeing the Light (change)
+Last semester, both of my coding classes introduced specific coding standards.  The value of coding standards was instantly apparent.  Although it took a bit of time to understand how to implement each coding standard and train myself to recognize the errors associated with them, the initial time spent setting up my environment was priceless.  ICS 211 taught me the importance of documentation and adherence to a unified coding standard in the context of collaboration.  Working with my roommate on the weekly coding homework became much simpler when we got to the point that almost no time was wasted trying to figure out each other’s coding style.  If my roommate was stuck on a certain function’s implementation, I could quickly look at their code and understand what was going on.  Similarly, ICS 212 showed me the benefit of coding standards in the context of errors and debugging.  As that entire class was done in VIM, syntax errors were only discovered when you attempted to compile the code.  While spelling errors were unavoidable from time to time, there was a significant decrease in syntax errors once I got into the habit of writing my code to conform to the coding standard from the beginning.  
+
