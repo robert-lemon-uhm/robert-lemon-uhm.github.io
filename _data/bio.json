@@ -66,15 +66,11 @@
       "endDate": "Present",
       "gpa": "3.81",
       "courses": [
-        "Coding for Engineering (EE 160)",
-        "Intro to Computer Science (ICS 111, 211)",
-        "Program Structure (ICS 212)",
-        "Discrete Math (MATH 301)",
-        "Linear Algebra/Differential Equations (MATH 307)",
-        "Probability and Statistics (MATH 372)",
-        "CURRENT: Machine Learning (ICS 235)",
-        "CURRENT: Algorithms (ICS 311)",
-        "CURRENT: Software Engineering (ICS 314)"
+        "Program Structure",
+        "Machine Learning",
+        "Algorithms",
+        "Software Engineering",
+        "Discrete Math"
       ]
     }
   ],
