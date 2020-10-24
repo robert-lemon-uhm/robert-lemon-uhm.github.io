@@ -43,3 +43,5 @@ for(int i = 0; i < 4; i++)
 				lost = false;
 }
 ```
+
+You can view the whole code in the [GitHub repository](https://github.com/robert-lemon-uhm/2048Java) for this project.
