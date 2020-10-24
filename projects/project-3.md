@@ -31,3 +31,5 @@ This code sample is used to clean up object memory after the program finishes ru
 
     this->start = NULL;
 ```
+
+You can view the whole code in the [GitHub repository](https://github.com/robert-lemon-uhm/CppRecordDatabase) for this project.
