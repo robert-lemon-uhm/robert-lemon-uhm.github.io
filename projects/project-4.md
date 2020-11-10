@@ -2,14 +2,15 @@
 layout: project
 type: project
 image: images/LogoC++.png
-title: C++ Record Database
-permalink: projects/DatabaseC++
+title: Python Tweet Classification and Generation
+permalink: projects/MarkovTweetModels
 # All dates must be YYYY-MM-DD format!
-date: 2020-05-01
+date: 2020-10-31
 labels:
-  - C++
-  - VIM Editor
-summary:  A robust record database that I coded in C++ for ICS 212.
+  - Python
+  - Machine Learning
+  - Markov Models
+summary:  Three different models to classify and generate tweets from the 2020 presidential candidates from UH Manoa's ICS 235 Machine Learning class.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/Project2UI.png">
@@ -32,4 +33,4 @@ This code sample is used to clean up object memory after the program finishes ru
     this->start = NULL;
 ```
 
-You can view the whole code in the [GitHub repository](https://github.com/robert-lemon-uhm/CppRecordDatabase) for this project.
+You can view the whole code in the [GitHub repository](https://github.com/robert-lemon-uhm/Presidential-Tweets-Markov-Models) for this project.
