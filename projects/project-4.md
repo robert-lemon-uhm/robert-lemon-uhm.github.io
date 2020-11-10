@@ -51,7 +51,6 @@ TRUMP: RT @NationalMallNPS: In the wake of last night's demonstrations, there ar
 TRUMP: RT @senatemajldr: Small businesses, working families, and medical responders across this country have made it clear: They need help now.… (Confidence: 99.99%)
 TRUMP: “On February 19th there was a Democratic Debate, in Las Vegas. Three words weren’t said: Virus, CoronaVirus, or COVID19. NEVER came up!” @BretBaier (Confidence: 99.99%)
 
-
 Mislabeled Biden Tweets
 
 BIDEN: Thank you, Minnesota! https://t.co/BqKfvLOJDy (Confidence: ~100%)
