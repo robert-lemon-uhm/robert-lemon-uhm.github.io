@@ -22,7 +22,7 @@ Below is the ROC curve of the tweet classifications, which consistently had an A
 <img class="ui image" src="{{ site.baseurl }}/images/Project4Results.png">
 
 
-Below are sample tweets that have been generated from models trained on each candidate’s previous tweets (note that longer tweets have been removed since there was too much noise):
+Below are sample tweets that have been generated from models trained on each candidate’s previous tweets (note that longer tweets have been removed since there was too much noise).
 
 ```
 TRUMP: the second amendment.
@@ -42,7 +42,7 @@ BIDEN: joebiden will finally receive the biden record.
 BIDEN: president.
 ```
 
-An interesting side-note in this project was looking at the tweets that the models misclassified.  Misclassification usually occurred on tweets that one candidate wrote but were in the typical style of writing as the other candidate.  A couple examples are posted below:
+An interesting side-note in this project was looking at the tweets that the models misclassified.  Misclassification usually occurred on tweets that one candidate wrote but were in the typical style of writing as the other candidate.  A couple examples are posted below.
 
 ```
 Mislabeled Trump Tweets
