@@ -47,19 +47,16 @@ An interesting side-note in this project was looking at the tweets that the mode
 ```
 Mislabeled Trump Tweets
 
-RT @NationalMallNPS: In the wake of last night's demonstrations, there are numerous instances of vandalism to sites around the National Mal… (Confidence: ~100%)
+TRUMP: RT @NationalMallNPS: In the wake of last night's demonstrations, there are numerous instances of vandalism to sites around the National Mal… (Confidence: ~100%)
+TRUMP: RT @senatemajldr: Small businesses, working families, and medical responders across this country have made it clear: They need help now.… (Confidence: 99.99%)
+TRUMP: “On February 19th there was a Democratic Debate, in Las Vegas. Three words weren’t said: Virus, CoronaVirus, or COVID19. NEVER came up!” @BretBaier (Confidence: 99.99%)
 
-RT @senatemajldr: Small businesses, working families, and medical responders across this country have made it clear: They need help now.… (Confidence: 99.99%)
 
-“On February 19th there was a Democratic Debate, in Las Vegas. Three words weren’t said: Virus, CoronaVirus, or COVID19. NEVER came up!” @BretBaier (Confidence: 99.99%)
+Mislabeled Biden Tweets
 
-Mislabeled Trump Tweets
-
-Thank you, Minnesota! https://t.co/BqKfvLOJDy (Confidence: ~100%)
-
-RT @HaleyARing: First day of action for @JoeBiden out in Buena Vista County!!! The humidity doesn’t stop #TeamJoe and @BuenaVistaDems !! (Confidence: ~100%)
-
-Thanks, Obama. https://t.co/kBXnvbJ9ND (Confidence: ~100%)
+BIDEN: Thank you, Minnesota! https://t.co/BqKfvLOJDy (Confidence: ~100%)
+BIDEN: RT @HaleyARing: First day of action for @JoeBiden out in Buena Vista County!!! The humidity doesn’t stop #TeamJoe and @BuenaVistaDems !! (Confidence: ~100%)
+BIDEN: Thanks, Obama. https://t.co/kBXnvbJ9ND (Confidence: ~100%)
 
 ```
 
