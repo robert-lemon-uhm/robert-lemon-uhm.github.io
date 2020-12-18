@@ -31,3 +31,5 @@ This is the section of the code that reads in user-inputted multi-line addresses
     address[length++] = '\0';
 ```
 You can view the whole code in the [GitHub repository](https://github.com/robert-lemon-uhm/CRecordDatabase) for this project.
+
+___
