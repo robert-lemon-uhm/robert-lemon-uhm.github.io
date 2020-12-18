@@ -43,3 +43,6 @@ My role in the project was to complete the pages assigned to me, as well as orga
 * [Andy Yu](https://andyyu824.github.io/)
 * [Anna Campainha](https://annacampainha.github.io/)
 * [Franz Adam](https://franzadam.github.io/)
+
+___
+
