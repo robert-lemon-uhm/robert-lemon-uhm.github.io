@@ -24,7 +24,9 @@ My role in the project was to complete the pages assigned to me, as well as orga
 
 ## Images
 
-*Admin Athlete Page* (Note: the Athlete Page is identical, minus the buttons to add visits and edit the profile)
+*Admin Athlete Page*
+
+(Note: the Athlete Page is identical, minus the buttons to add visits and edit the profile)
 
 <img class="ui image" src="{{ site.baseurl }}/images/AthletiCheck-AdminAthleteProfilePage.png">
 
