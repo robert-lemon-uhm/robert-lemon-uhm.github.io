@@ -18,9 +18,11 @@ For the final project in ICS 314, we were supposed to create a website that demo
 
 My role in the project was to complete the pages assigned to me, as well as organize the big-picture back-end framework, making sure my group members were able to seamlessly get the back-end of their pages working.  More specifically, I was in charge of making the Athlete Profile Page, Admin Athlete Profile Page, and the Edit Profile page, both front-end and back-end (see pictures below).  I also worked on the publication methods and definitions of all of the collections for our database.  I really enjoyed this role, as it provided me with the type of hands-on experience that forces you to learn and understand the content instead of just copying what was taught in class.  I feel like this project helped me genuinely understand the tech stack used in this class.  I developed the technical understanding to have the confidence to know how to approach any issues we came across and find a reasonable solution for it.  This project also provided me with a great opportunity to actually practice collaborative software development through idea-driven project management and version control.  As discussed in [this](https://robert-lemon-uhm.github.io/essays/2020-12-17.html) essay, I believe these skills will last me throughout my coding career.  
 
-<img class="ui image" src="{{ site.baseurl }}/images/Project4Results.png">
-<img class="ui image" src="{{ site.baseurl }}/images/Project4Results.png">
-<img class="ui image" src="{{ site.baseurl }}/images/Project4Results.png">
+### Images
+
+*Admin Athlete Page* (Note: the Athlete Page is identical, minus the buttons to add visits and edit the profile)
+<img class="ui image" src="{{ site.baseurl }}/images/AthletiCheck-AdminAthletePage.png">
+<img class="ui image" src="{{ site.baseurl }}/images/AthletiCheck-EditProfilePage.png">
 
 *Links:*
 * [Deployed Website](https://athleticheck.xyz/)
