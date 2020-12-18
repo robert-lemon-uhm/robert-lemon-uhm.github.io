@@ -23,8 +23,8 @@ My role in the project was to complete the pages assigned to me, as well as orga
 <img class="ui image" src="{{ site.baseurl }}/images/Project4Results.png">
 
 *Links:*
--[Deployed Website](https://athleticheck.xyz/)
--[Website Information Page](https://athleticheck.github.io/)
--[GitHub Organization Page](https://github.com/athleticheck/athleticheck)
+* [Deployed Website](https://athleticheck.xyz/)
+* [Website Information Page](https://athleticheck.github.io/)
+* [GitHub Organization Page](https://github.com/athleticheck/athleticheck)
 
 I worked on this project with [Andy Yu](https://andyyu824.github.io/), [Anna Campainha](https://annacampainha.github.io/), and [Franz Adam](https://franzadam.github.io/).
