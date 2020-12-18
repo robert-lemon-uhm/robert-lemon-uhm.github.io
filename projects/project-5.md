@@ -27,4 +27,7 @@ My role in the project was to complete the pages assigned to me, as well as orga
 * [Website Information Page](https://athleticheck.github.io/)
 * [GitHub Organization Page](https://github.com/athleticheck/athleticheck)
 
-I worked on this project with [Andy Yu](https://andyyu824.github.io/), [Anna Campainha](https://annacampainha.github.io/), and [Franz Adam](https://franzadam.github.io/).
+*Teammates:*
+* [Andy Yu](https://andyyu824.github.io/)
+* [Anna Campainha](https://annacampainha.github.io/)
+* [Franz Adam](https://franzadam.github.io/)
